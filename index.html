@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rainlight · rain and affirmations, all day long</title>
+  <meta name="description" content="A 24/7 rain ambience with gentle affirmations for confidence, self-love, growth, and rest.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-period="night">
+  <!-- Layer 1: background sky, glowing city bokeh, rain and window drops (drawn by script.js) -->
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="flash" id="flash" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- Brand -->
+  <header class="brand">
+    <span class="brand-mark">☂</span>
+    <span class="brand-name">Rainlight</span>
+    <span class="live-dot" aria-label="Live">LIVE</span>
+  </header>
+
+  <!-- Affirmation in the center -->
+  <main class="affirmation-wrap">
+    <p class="theme-label" id="theme-label">Night · Rest &amp; Peace</p>
+    <h1 class="affirmation" id="affirmation">Let the rain carry your thoughts away.</h1>
+  </main>
+
+  <!-- Player controls -->
+  <section class="player" id="player" aria-label="Sound controls">
+    <button class="play-btn" id="play-btn" aria-label="Play rain sounds">
+      <span class="icon-play">▶</span><span class="icon-pause">❚❚</span>
+    </button>
+    <div class="now-playing">
+      <span class="np-title" id="np-title">Soft rain on the window</span>
+      <span class="np-sub" id="clock">--:--</span>
+    </div>
+    <label class="slider">
+      <span>Rain</span>
+      <input type="range" id="rain-vol" min="0" max="1" step="0.01" value="0.7">
+    </label>
+    <label class="slider">
+      <span>Thunder</span>
+      <input type="range" id="thunder-vol" min="0" max="1" step="0.01" value="0.5">
+    </label>
+    <select id="mood" aria-label="Rain style">
+      <option value="gentle">Gentle rain</option>
+      <option value="steady" selected>Steady rain</option>
+      <option value="storm">Night storm</option>
+    </select>
+  </section>
+
+  <!-- Start screen (browsers need one click before sound can play) -->
+  <div class="intro" id="intro">
+    <div class="intro-card">
+      <p class="intro-kicker">Rainlight</p>
+      <h2>Rain, thunder, and gentle words, all day long.</h2>
+      <p>Put on headphones, breathe out, and stay as long as you like.</p>
+      <button id="enter-btn">Begin listening</button>
+      <button class="link-btn" id="quiet-btn">Watch without sound</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

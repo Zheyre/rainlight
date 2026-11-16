@@ -1,0 +1,62 @@
+{
+  "morning": {
+    "name": "Morning",
+    "theme": "Confidence",
+    "hours": [6, 12],
+    "affirmations": [
+      "I trust myself to handle whatever today brings.",
+      "My voice matters, and I use it with ease.",
+      "I walk into every room as exactly who I am.",
+      "Confidence grows every time I keep a promise to myself.",
+      "I am allowed to take up space.",
+      "I do not need permission to shine.",
+      "Today I choose courage over comfort.",
+      "I am capable of more than I imagine."
+    ]
+  },
+  "afternoon": {
+    "name": "Afternoon",
+    "theme": "Goals & Growth",
+    "hours": [12, 17],
+    "affirmations": [
+      "Small steps still move me forward.",
+      "I am becoming the person my goals require.",
+      "Every effort I make is planting something.",
+      "I am patient with my progress and proud of my persistence.",
+      "My dreams are worth the work.",
+      "I learn from every setback and keep going.",
+      "What is meant for me is already on its way.",
+      "I focus on what I can do today."
+    ]
+  },
+  "evening": {
+    "name": "Evening",
+    "theme": "Self-Love",
+    "hours": [17, 22],
+    "affirmations": [
+      "I am worthy of the love I give so freely.",
+      "I speak to myself with kindness.",
+      "I am enough, exactly as I am right now.",
+      "I forgive myself and begin again.",
+      "My softness is a strength.",
+      "I honor my needs without guilt.",
+      "I am at home in myself.",
+      "I deserve rest, joy, and gentleness."
+    ]
+  },
+  "night": {
+    "name": "Night",
+    "theme": "Rest & Peace",
+    "hours": [22, 6],
+    "affirmations": [
+      "I release today and let the rain wash it away.",
+      "It is safe to rest now.",
+      "Everything I need will meet me in the morning.",
+      "My mind is quiet, and my heart is calm.",
+      "I let go of what I cannot control.",
+      "I am proud of how far I have come.",
+      "Tomorrow is a fresh, open page.",
+      "Peace lives within me, always."
+    ]
+  }
+}
